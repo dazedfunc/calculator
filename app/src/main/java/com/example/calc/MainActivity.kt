@@ -59,6 +59,7 @@ class MainActivity : AppCompatActivity() {
             operation = view.text.toString()
         }
     }
+
     fun equalsClick(view: View) {
         val secOperand: String = resultTextView.toString()
         var secNumber = 0.0
